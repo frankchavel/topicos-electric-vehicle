@@ -1,0 +1,22 @@
+{
+  "name": "ELECTRIC_VEHICLE",
+  "type": "record",
+  "fields": [
+    {"name": "vin", "type": ["null", "string"], "default": null},
+    {"name": "county", "type": ["null", "string"], "default": null},
+    {"name": "city", "type": ["null", "string"], "default": null},
+    {"name": "state", "type": ["null", "string"], "default": null},
+    {"name": "postal_code", "type": ["null", "string"], "default": null},
+    {"name": "model_year", "type": ["null", "int"], "default": null},
+    {"name": "make", "type": ["null", "string"], "default": null},
+    {"name": "model", "type": ["null", "string"], "default": null},
+    {"name": "electric_vehicle_type", "type": ["null", "string"], "default": null},
+    {"name": "cafv_eligibility", "type": ["null", "string"], "default": null},
+    {"name": "electric_range", "type": ["null", "int"], "default": null},
+    {"name": "legislative_district", "type": ["null", "int"], "default": null},
+    {"name": "dol_vehicle_id", "type": ["null", "long"], "default": null},
+    {"name": "vehicle_location", "type": ["null", "string"], "default": null},
+    {"name": "electric_utility", "type": ["null", "string"], "default": null},
+    {"name": "census_tract_2020", "type": ["null", "string"], "default": null}
+  ]
+}

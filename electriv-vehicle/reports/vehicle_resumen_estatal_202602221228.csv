@@ -1,0 +1,327 @@
+"state","electric_vehicle_type","total_vehicles","promedio_electric_range","model_year"
+WA,Battery Electric Vehicle (BEV),1,95.0,2002
+WA,Battery Electric Vehicle (BEV),1,95.0,2003
+WA,Battery Electric Vehicle (BEV),20,209.0,2008
+WA,Battery Electric Vehicle (BEV),21,245.0,2010
+WA,Plug-in Hybrid Electric Vehicle (PHEV),2,100.0,2010
+CA,Battery Electric Vehicle (BEV),1,73.0,2011
+WA,Battery Electric Vehicle (BEV),532,75.79511278195488,2011
+WA,Plug-in Hybrid Electric Vehicle (PHEV),57,35.0,2011
+ME,Plug-in Hybrid Electric Vehicle (PHEV),1,6.0,2012
+NJ,Plug-in Hybrid Electric Vehicle (PHEV),1,35.0,2012
+OR,Battery Electric Vehicle (BEV),1,265.0,2012
+TX,Battery Electric Vehicle (BEV),1,265.0,2012
+TX,Plug-in Hybrid Electric Vehicle (PHEV),1,35.0,2012
+WA,Battery Electric Vehicle (BEV),609,106.10180623973727,2012
+WA,Plug-in Hybrid Electric Vehicle (PHEV),786,21.502544529262085,2012
+AZ,Battery Electric Vehicle (BEV),1,75.0,2013
+GA,Plug-in Hybrid Electric Vehicle (PHEV),1,38.0,2013
+MD,Plug-in Hybrid Electric Vehicle (PHEV),1,6.0,2013
+WA,Battery Electric Vehicle (BEV),2460,109.96747967479675,2013
+WA,Plug-in Hybrid Electric Vehicle (PHEV),1501,25.87608261159227,2013
+AE,Plug-in Hybrid Electric Vehicle (PHEV),1,19.0,2014
+CA,Battery Electric Vehicle (BEV),1,208.0,2014
+CA,Plug-in Hybrid Electric Vehicle (PHEV),1,38.0,2014
+FL,Plug-in Hybrid Electric Vehicle (PHEV),1,38.0,2014
+MD,Plug-in Hybrid Electric Vehicle (PHEV),1,19.0,2014
+NV,Plug-in Hybrid Electric Vehicle (PHEV),1,19.0,2014
+VA,Battery Electric Vehicle (BEV),2,146.0,2014
+VA,Plug-in Hybrid Electric Vehicle (PHEV),1,38.0,2014
+WA,Battery Electric Vehicle (BEV),1555,126.43215434083601,2014
+WA,Plug-in Hybrid Electric Vehicle (PHEV),1655,33.0012084592145,2014
+CA,Battery Electric Vehicle (BEV),3,125.33333333333333,2015
+CT,Plug-in Hybrid Electric Vehicle (PHEV),1,38.0,2015
+FL,Battery Electric Vehicle (BEV),1,208.0,2015
+MD,Plug-in Hybrid Electric Vehicle (PHEV),1,19.0,2015
+PA,Plug-in Hybrid Electric Vehicle (PHEV),1,19.0,2015
+RI,Battery Electric Vehicle (BEV),1,84.0,2015
+SC,Battery Electric Vehicle (BEV),1,84.0,2015
+VA,Battery Electric Vehicle (BEV),2,144.5,2015
+WA,Battery Electric Vehicle (BEV),3151,120.45350682323073,2015
+WA,Plug-in Hybrid Electric Vehicle (PHEV),1238,34.166397415185784,2015
+AK,Plug-in Hybrid Electric Vehicle (PHEV),1,14.0,2016
+AZ,Plug-in Hybrid Electric Vehicle (PHEV),1,72.0,2016
+CA,Battery Electric Vehicle (BEV),3,164.66666666666666,2016
+CA,Plug-in Hybrid Electric Vehicle (PHEV),1,19.0,2016
+CO,Battery Electric Vehicle (BEV),2,76.0,2016
+CT,Plug-in Hybrid Electric Vehicle (PHEV),1,13.0,2016
+DC,Battery Electric Vehicle (BEV),1,93.0,2016
+MD,Battery Electric Vehicle (BEV),1,210.0,2016
+NJ,Battery Electric Vehicle (BEV),1,84.0,2016
+NY,Battery Electric Vehicle (BEV),1,200.0,2016
+WA,Battery Electric Vehicle (BEV),3431,136.79539492859226,2016
+WA,Plug-in Hybrid Electric Vehicle (PHEV),1630,27.1840490797546,2016
+AL,Battery Electric Vehicle (BEV),1,238.0,2017
+BC,Battery Electric Vehicle (BEV),1,200.0,2017
+CA,Battery Electric Vehicle (BEV),3,173.33333333333334,2017
+CA,Plug-in Hybrid Electric Vehicle (PHEV),4,19.5,2017
+CO,Plug-in Hybrid Electric Vehicle (PHEV),1,25.0,2017
+FL,Plug-in Hybrid Electric Vehicle (PHEV),1,14.0,2017
+IN,Battery Electric Vehicle (BEV),1,210.0,2017
+MD,Battery Electric Vehicle (BEV),1,200.0,2017
+NY,Plug-in Hybrid Electric Vehicle (PHEV),1,25.0,2017
+OR,Battery Electric Vehicle (BEV),1,238.0,2017
+RI,Plug-in Hybrid Electric Vehicle (PHEV),1,25.0,2017
+TX,Plug-in Hybrid Electric Vehicle (PHEV),2,25.0,2017
+WA,Battery Electric Vehicle (BEV),4493,186.2664144224349,2017
+WA,Plug-in Hybrid Electric Vehicle (PHEV),3890,37.58251928020565,2017
+AZ,Battery Electric Vehicle (BEV),1,249.0,2018
+AZ,Plug-in Hybrid Electric Vehicle (PHEV),1,9.0,2018
+CA,Battery Electric Vehicle (BEV),2,232.0,2018
+CA,Plug-in Hybrid Electric Vehicle (PHEV),3,22.666666666666668,2018
+CO,Battery Electric Vehicle (BEV),1,215.0,2018
+FL,Battery Electric Vehicle (BEV),1,151.0,2018
+FL,Plug-in Hybrid Electric Vehicle (PHEV),1,47.0,2018
+HI,Battery Electric Vehicle (BEV),1,215.0,2018
+IL,Battery Electric Vehicle (BEV),2,215.0,2018
+IN,Plug-in Hybrid Electric Vehicle (PHEV),1,33.0,2018
+KY,Plug-in Hybrid Electric Vehicle (PHEV),1,33.0,2018
+LA,Battery Electric Vehicle (BEV),1,215.0,2018
+MD,Battery Electric Vehicle (BEV),3,215.0,2018
+MD,Plug-in Hybrid Electric Vehicle (PHEV),1,33.0,2018
+MO,Battery Electric Vehicle (BEV),1,215.0,2018
+NY,Battery Electric Vehicle (BEV),2,215.0,2018
+OR,Battery Electric Vehicle (BEV),1,238.0,2018
+OR,Plug-in Hybrid Electric Vehicle (PHEV),2,15.0,2018
+QC,Battery Electric Vehicle (BEV),1,215.0,2018
+RI,Plug-in Hybrid Electric Vehicle (PHEV),1,22.0,2018
+VA,Battery Electric Vehicle (BEV),3,222.66666666666666,2018
+VA,Plug-in Hybrid Electric Vehicle (PHEV),2,20.0,2018
+WA,Battery Electric Vehicle (BEV),9632,210.55118355481727,2018
+WA,Plug-in Hybrid Electric Vehicle (PHEV),4231,33.545733869061685,2018
+CA,Battery Electric Vehicle (BEV),3,243.0,2019
+CA,Plug-in Hybrid Electric Vehicle (PHEV),3,18.666666666666668,2019
+CO,Battery Electric Vehicle (BEV),1,150.0,2019
+CT,Battery Electric Vehicle (BEV),1,220.0,2019
+FL,Battery Electric Vehicle (BEV),1,220.0,2019
+GA,Battery Electric Vehicle (BEV),1,220.0,2019
+KS,Plug-in Hybrid Electric Vehicle (PHEV),1,32.0,2019
+MA,Battery Electric Vehicle (BEV),2,220.0,2019
+MI,Battery Electric Vehicle (BEV),1,220.0,2019
+MN,Plug-in Hybrid Electric Vehicle (PHEV),1,15.0,2019
+TX,Battery Electric Vehicle (BEV),3,220.0,2019
+VA,Battery Electric Vehicle (BEV),3,220.0,2019
+VA,Plug-in Hybrid Electric Vehicle (PHEV),1,16.0,2019
+WA,Battery Electric Vehicle (BEV),8720,210.0190366972477,2019
+WA,Plug-in Hybrid Electric Vehicle (PHEV),2032,31.066929133858267,2019
+WI,Battery Electric Vehicle (BEV),1,220.0,2019
+AL,Battery Electric Vehicle (BEV),1,259.0,2020
+AZ,Plug-in Hybrid Electric Vehicle (PHEV),1,32.0,2020
+CA,Battery Electric Vehicle (BEV),7,266.57142857142856,2020
+CA,Plug-in Hybrid Electric Vehicle (PHEV),3,27.666666666666668,2020
+CO,Battery Electric Vehicle (BEV),1,322.0,2020
+CT,Battery Electric Vehicle (BEV),1,322.0,2020
+FL,Battery Electric Vehicle (BEV),1,291.0,2020
+GA,Battery Electric Vehicle (BEV),1,153.0,2020
+ID,Battery Electric Vehicle (BEV),1,291.0,2020
+ID,Plug-in Hybrid Electric Vehicle (PHEV),1,26.0,2020
+MA,Plug-in Hybrid Electric Vehicle (PHEV),1,29.0,2020
+MO,Battery Electric Vehicle (BEV),2,322.0,2020
+NC,Battery Electric Vehicle (BEV),2,294.0,2020
+NJ,Battery Electric Vehicle (BEV),1,259.0,2020
+NJ,Plug-in Hybrid Electric Vehicle (PHEV),1,25.0,2020
+NM,Battery Electric Vehicle (BEV),1,291.0,2020
+NV,Battery Electric Vehicle (BEV),2,283.5,2020
+OR,Battery Electric Vehicle (BEV),1,322.0,2020
+PA,Battery Electric Vehicle (BEV),1,266.0,2020
+SC,Battery Electric Vehicle (BEV),1,308.0,2020
+TX,Battery Electric Vehicle (BEV),3,290.0,2020
+VA,Battery Electric Vehicle (BEV),6,290.8333333333333,2020
+WA,Battery Electric Vehicle (BEV),10053,274.4643390032826,2020
+WA,Plug-in Hybrid Electric Vehicle (PHEV),1804,27.569844789356985,2020
+AE,Battery Electric Vehicle (BEV),1,0.0,2021
+AK,Battery Electric Vehicle (BEV),1,0.0,2021
+AL,Battery Electric Vehicle (BEV),1,0.0,2021
+AZ,Battery Electric Vehicle (BEV),1,0.0,2021
+CA,Battery Electric Vehicle (BEV),17,0.0,2021
+CA,Plug-in Hybrid Electric Vehicle (PHEV),8,29.75,2021
+CO,Battery Electric Vehicle (BEV),1,0.0,2021
+CO,Plug-in Hybrid Electric Vehicle (PHEV),1,18.0,2021
+CT,Battery Electric Vehicle (BEV),1,0.0,2021
+FL,Battery Electric Vehicle (BEV),3,0.0,2021
+FL,Plug-in Hybrid Electric Vehicle (PHEV),1,42.0,2021
+GA,Battery Electric Vehicle (BEV),2,0.0,2021
+GA,Plug-in Hybrid Electric Vehicle (PHEV),1,42.0,2021
+HI,Battery Electric Vehicle (BEV),1,0.0,2021
+ID,Battery Electric Vehicle (BEV),1,0.0,2021
+IL,Battery Electric Vehicle (BEV),4,0.0,2021
+IL,Plug-in Hybrid Electric Vehicle (PHEV),1,32.0,2021
+IN,Battery Electric Vehicle (BEV),1,0.0,2021
+KY,Battery Electric Vehicle (BEV),1,0.0,2021
+MD,Battery Electric Vehicle (BEV),3,0.0,2021
+MD,Plug-in Hybrid Electric Vehicle (PHEV),2,32.0,2021
+MO,Plug-in Hybrid Electric Vehicle (PHEV),1,18.0,2021
+MS,Battery Electric Vehicle (BEV),1,0.0,2021
+NC,Battery Electric Vehicle (BEV),2,0.0,2021
+NY,Battery Electric Vehicle (BEV),1,0.0,2021
+NY,Plug-in Hybrid Electric Vehicle (PHEV),2,21.5,2021
+OR,Plug-in Hybrid Electric Vehicle (PHEV),1,30.0,2021
+TN,Plug-in Hybrid Electric Vehicle (PHEV),1,25.0,2021
+TX,Battery Electric Vehicle (BEV),2,0.0,2021
+VA,Battery Electric Vehicle (BEV),6,0.0,2021
+VA,Plug-in Hybrid Electric Vehicle (PHEV),2,37.0,2021
+WA,Battery Electric Vehicle (BEV),16230,8.52365988909427,2021
+WA,Plug-in Hybrid Electric Vehicle (PHEV),4334,27.958237194277803,2021
+AL,Plug-in Hybrid Electric Vehicle (PHEV),1,25.0,2022
+AR,Battery Electric Vehicle (BEV),1,0.0,2022
+AZ,Battery Electric Vehicle (BEV),2,0.0,2022
+AZ,Plug-in Hybrid Electric Vehicle (PHEV),1,32.0,2022
+BC,Battery Electric Vehicle (BEV),1,0.0,2022
+BC,Plug-in Hybrid Electric Vehicle (PHEV),1,22.0,2022
+CA,Battery Electric Vehicle (BEV),15,0.0,2022
+CA,Plug-in Hybrid Electric Vehicle (PHEV),7,26.285714285714285,2022
+CO,Battery Electric Vehicle (BEV),4,0.0,2022
+CO,Plug-in Hybrid Electric Vehicle (PHEV),2,20.0,2022
+CT,Battery Electric Vehicle (BEV),1,0.0,2022
+DC,Plug-in Hybrid Electric Vehicle (PHEV),1,32.0,2022
+FL,Battery Electric Vehicle (BEV),6,0.0,2022
+FL,Plug-in Hybrid Electric Vehicle (PHEV),1,42.0,2022
+GA,Battery Electric Vehicle (BEV),1,0.0,2022
+GA,Plug-in Hybrid Electric Vehicle (PHEV),2,33.5,2022
+HI,Battery Electric Vehicle (BEV),1,0.0,2022
+ID,Battery Electric Vehicle (BEV),1,0.0,2022
+IL,Battery Electric Vehicle (BEV),3,0.0,2022
+IL,Plug-in Hybrid Electric Vehicle (PHEV),1,25.0,2022
+KY,Battery Electric Vehicle (BEV),1,0.0,2022
+MD,Battery Electric Vehicle (BEV),3,0.0,2022
+MD,Plug-in Hybrid Electric Vehicle (PHEV),1,18.0,2022
+MI,Battery Electric Vehicle (BEV),1,0.0,2022
+MI,Plug-in Hybrid Electric Vehicle (PHEV),1,25.0,2022
+MO,Plug-in Hybrid Electric Vehicle (PHEV),1,42.0,2022
+MS,Battery Electric Vehicle (BEV),1,0.0,2022
+NH,Battery Electric Vehicle (BEV),1,0.0,2022
+NJ,Battery Electric Vehicle (BEV),4,0.0,2022
+NV,Battery Electric Vehicle (BEV),2,0.0,2022
+NV,Plug-in Hybrid Electric Vehicle (PHEV),1,35.0,2022
+NY,Battery Electric Vehicle (BEV),1,0.0,2022
+NY,Plug-in Hybrid Electric Vehicle (PHEV),1,42.0,2022
+OH,Battery Electric Vehicle (BEV),2,0.0,2022
+OR,Battery Electric Vehicle (BEV),6,0.0,2022
+OR,Plug-in Hybrid Electric Vehicle (PHEV),3,35.0,2022
+PA,Plug-in Hybrid Electric Vehicle (PHEV),1,35.0,2022
+QC,Battery Electric Vehicle (BEV),1,0.0,2022
+RI,Battery Electric Vehicle (BEV),1,0.0,2022
+TN,Plug-in Hybrid Electric Vehicle (PHEV),1,21.0,2022
+TX,Battery Electric Vehicle (BEV),7,0.0,2022
+TX,Plug-in Hybrid Electric Vehicle (PHEV),1,32.0,2022
+VA,Battery Electric Vehicle (BEV),10,0.0,2022
+VA,Plug-in Hybrid Electric Vehicle (PHEV),3,33.0,2022
+WA,Battery Electric Vehicle (BEV),24771,0.0,2022
+WA,Plug-in Hybrid Electric Vehicle (PHEV),4849,28.916065168075892,2022
+WI,Battery Electric Vehicle (BEV),1,0.0,2022
+AL,Battery Electric Vehicle (BEV),1,0.0,2023
+AL,Plug-in Hybrid Electric Vehicle (PHEV),2,37.0,2023
+AP,Battery Electric Vehicle (BEV),1,0.0,2023
+AZ,Battery Electric Vehicle (BEV),5,0.0,2023
+BC,Battery Electric Vehicle (BEV),1,0.0,2023
+CA,Battery Electric Vehicle (BEV),34,0.0,2023
+CA,Plug-in Hybrid Electric Vehicle (PHEV),7,29.857142857142858,2023
+CO,Battery Electric Vehicle (BEV),6,0.0,2023
+CO,Plug-in Hybrid Electric Vehicle (PHEV),2,30.0,2023
+DC,Battery Electric Vehicle (BEV),2,0.0,2023
+FL,Battery Electric Vehicle (BEV),9,0.0,2023
+FL,Plug-in Hybrid Electric Vehicle (PHEV),3,22.333333333333332,2023
+GA,Battery Electric Vehicle (BEV),5,0.0,2023
+ID,Battery Electric Vehicle (BEV),2,0.0,2023
+IL,Battery Electric Vehicle (BEV),3,0.0,2023
+MA,Battery Electric Vehicle (BEV),3,0.0,2023
+MD,Battery Electric Vehicle (BEV),8,0.0,2023
+MD,Plug-in Hybrid Electric Vehicle (PHEV),2,28.5,2023
+MO,Battery Electric Vehicle (BEV),2,0.0,2023
+NC,Battery Electric Vehicle (BEV),6,0.0,2023
+NE,Battery Electric Vehicle (BEV),1,0.0,2023
+NE,Plug-in Hybrid Electric Vehicle (PHEV),1,42.0,2023
+NJ,Battery Electric Vehicle (BEV),1,0.0,2023
+NM,Plug-in Hybrid Electric Vehicle (PHEV),2,27.5,2023
+NV,Battery Electric Vehicle (BEV),4,0.0,2023
+NV,Plug-in Hybrid Electric Vehicle (PHEV),1,32.0,2023
+NY,Battery Electric Vehicle (BEV),2,0.0,2023
+NY,Plug-in Hybrid Electric Vehicle (PHEV),2,37.0,2023
+OH,Battery Electric Vehicle (BEV),2,0.0,2023
+OK,Battery Electric Vehicle (BEV),2,0.0,2023
+OR,Battery Electric Vehicle (BEV),3,0.0,2023
+PA,Battery Electric Vehicle (BEV),2,0.0,2023
+SC,Battery Electric Vehicle (BEV),1,0.0,2023
+SC,Plug-in Hybrid Electric Vehicle (PHEV),1,21.0,2023
+TN,Battery Electric Vehicle (BEV),1,0.0,2023
+TN,Plug-in Hybrid Electric Vehicle (PHEV),1,23.0,2023
+TX,Battery Electric Vehicle (BEV),7,0.0,2023
+TX,Plug-in Hybrid Electric Vehicle (PHEV),3,24.666666666666668,2023
+UT,Battery Electric Vehicle (BEV),1,0.0,2023
+UT,Plug-in Hybrid Electric Vehicle (PHEV),1,21.0,2023
+VA,Battery Electric Vehicle (BEV),18,0.0,2023
+VA,Plug-in Hybrid Electric Vehicle (PHEV),2,32.5,2023
+WA,Battery Electric Vehicle (BEV),51225,0.0,2023
+WA,Plug-in Hybrid Electric Vehicle (PHEV),7489,30.505407931633062,2023
+WY,Battery Electric Vehicle (BEV),1,0.0,2023
+WY,Plug-in Hybrid Electric Vehicle (PHEV),1,42.0,2023
+AB,Battery Electric Vehicle (BEV),1,0.0,2024
+AL,Plug-in Hybrid Electric Vehicle (PHEV),1,21.0,2024
+AZ,Battery Electric Vehicle (BEV),3,0.0,2024
+CA,Battery Electric Vehicle (BEV),18,0.0,2024
+CA,Plug-in Hybrid Electric Vehicle (PHEV),3,37.666666666666664,2024
+CO,Battery Electric Vehicle (BEV),3,0.0,2024
+CT,Battery Electric Vehicle (BEV),1,0.0,2024
+FL,Battery Electric Vehicle (BEV),6,0.0,2024
+FL,Plug-in Hybrid Electric Vehicle (PHEV),1,21.0,2024
+GU,Plug-in Hybrid Electric Vehicle (PHEV),1,26.0,2024
+IL,Battery Electric Vehicle (BEV),2,0.0,2024
+IL,Plug-in Hybrid Electric Vehicle (PHEV),3,27.666666666666668,2024
+IN,Battery Electric Vehicle (BEV),1,0.0,2024
+KS,Battery Electric Vehicle (BEV),1,0.0,2024
+KS,Plug-in Hybrid Electric Vehicle (PHEV),1,32.0,2024
+KY,Plug-in Hybrid Electric Vehicle (PHEV),1,26.0,2024
+LA,Battery Electric Vehicle (BEV),4,0.0,2024
+MA,Battery Electric Vehicle (BEV),1,0.0,2024
+MD,Battery Electric Vehicle (BEV),9,0.0,2024
+MD,Plug-in Hybrid Electric Vehicle (PHEV),4,30.5,2024
+MI,Battery Electric Vehicle (BEV),1,0.0,2024
+MO,Battery Electric Vehicle (BEV),3,0.0,2024
+NC,Battery Electric Vehicle (BEV),1,0.0,2024
+NE,Battery Electric Vehicle (BEV),1,0.0,2024
+NH,Battery Electric Vehicle (BEV),1,0.0,2024
+NJ,Battery Electric Vehicle (BEV),1,0.0,2024
+NJ,Plug-in Hybrid Electric Vehicle (PHEV),1,35.0,2024
+NV,Battery Electric Vehicle (BEV),2,0.0,2024
+NY,Battery Electric Vehicle (BEV),1,0.0,2024
+OH,Battery Electric Vehicle (BEV),1,0.0,2024
+OH,Plug-in Hybrid Electric Vehicle (PHEV),1,39.0,2024
+OK,Plug-in Hybrid Electric Vehicle (PHEV),1,34.0,2024
+OR,Battery Electric Vehicle (BEV),6,0.0,2024
+PA,Battery Electric Vehicle (BEV),2,0.0,2024
+RI,Battery Electric Vehicle (BEV),2,0.0,2024
+SC,Plug-in Hybrid Electric Vehicle (PHEV),1,21.0,2024
+TN,Battery Electric Vehicle (BEV),1,0.0,2024
+TX,Battery Electric Vehicle (BEV),3,0.0,2024
+TX,Plug-in Hybrid Electric Vehicle (PHEV),5,31.4,2024
+VA,Battery Electric Vehicle (BEV),11,0.0,2024
+VA,Plug-in Hybrid Electric Vehicle (PHEV),6,23.0,2024
+WA,Battery Electric Vehicle (BEV),38676,0.7998758920260627,2024
+WA,Plug-in Hybrid Electric Vehicle (PHEV),10545,31.91180654338549,2024
+WI,Plug-in Hybrid Electric Vehicle (PHEV),2,23.0,2024
+CA,Battery Electric Vehicle (BEV),5,0.0,2025
+CA,Plug-in Hybrid Electric Vehicle (PHEV),1,37.0,2025
+DC,Battery Electric Vehicle (BEV),1,0.0,2025
+DE,Plug-in Hybrid Electric Vehicle (PHEV),1,42.0,2025
+FL,Battery Electric Vehicle (BEV),2,0.0,2025
+GA,Battery Electric Vehicle (BEV),2,0.0,2025
+IL,Battery Electric Vehicle (BEV),2,0.0,2025
+KS,Battery Electric Vehicle (BEV),2,0.0,2025
+KS,Plug-in Hybrid Electric Vehicle (PHEV),1,32.0,2025
+KY,Battery Electric Vehicle (BEV),2,0.0,2025
+MA,Battery Electric Vehicle (BEV),1,0.0,2025
+MD,Battery Electric Vehicle (BEV),2,0.0,2025
+MI,Battery Electric Vehicle (BEV),4,0.0,2025
+MO,Battery Electric Vehicle (BEV),1,0.0,2025
+NV,Battery Electric Vehicle (BEV),1,0.0,2025
+OR,Battery Electric Vehicle (BEV),2,0.0,2025
+TX,Battery Electric Vehicle (BEV),2,0.0,2025
+VA,Battery Electric Vehicle (BEV),1,0.0,2025
+WA,Battery Electric Vehicle (BEV),28171,0.0,2025
+WA,Plug-in Hybrid Electric Vehicle (PHEV),7796,35.080810672139556,2025
+MI,Battery Electric Vehicle (BEV),2,0.0,2026
+NH,Battery Electric Vehicle (BEV),1,0.0,2026
+NY,Battery Electric Vehicle (BEV),1,0.0,2026
+VA,Battery Electric Vehicle (BEV),1,0.0,2026
+WA,Battery Electric Vehicle (BEV),12067,0.0,2026
+WA,Plug-in Hybrid Electric Vehicle (PHEV),779,38.60590500641849,2026
