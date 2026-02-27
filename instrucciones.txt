@@ -51,3 +51,37 @@ spark-submit \
   --base_path /user \
   --schema_path /user/hadoop/datalake/schema \
   --source_db topicosb_workload
+
+------------------------
+ 4. CARGAR CAPA CURATED 
+------------------------
+
+spark-submit \
+  --master yarn \
+  --deploy-mode client \
+  --conf spark.sql.warehouse.dir=/user/hadoop/warehouse \
+  --conf spark.sql.parquet.compression.codec=snappy \
+  --conf spark.dynamicAllocation.enabled=true \
+  --conf spark.executor.instances=2 \
+  --conf spark.executor.memory=2g \
+  --conf spark.driver.memory=1g \
+  /mnt/c/Users/fchav/Documents/Topicos/electriv-vehicle/datalake/procesos/poblar_capa_curated.py \
+  --env TopicosB \
+  --username hadoop \
+  --base_path /user \
+  --source_db landing
+
+  ---------------------------
+ 5. CARGAR CAPA FUNCTIONAL
+---------------------------
+
+spark-submit \
+  --master yarn \
+  --deploy-mode client \
+  --conf spark.sql.warehouse.dir=/user/hadoop/warehouse \
+  /mnt/c/Users/fchav/Documents/Topicos/electriv-vehicle/datalake/procesos/poblar_capa_functional.py \
+  --env DEV \
+  --username hadoop \
+  --base_path /user \
+  --source_db curated
+  
