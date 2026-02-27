@@ -29,3 +29,25 @@ spark-submit \
   --username hadoop \
   --base_path /user \
   --local_data_path /user/hadoop/dataset
+
+  ------------------------
+ 3. CARGAR CAPA LANDING 
+------------------------
+  --1. crear ruta hdfs para guardar AVSC
+hdfs dfs -mkdir -p /user/hadoop/datalake/schema/TopicosB_landing
+hdfs dfs -put -f \ /mnt/c/Users/fchav/Documents/Topicos/electriv-vehicle/datalake/schema/*.avsc \ /user/hadoop/datalake/schema/TopicosB_landing/
+hdfs dfs -ls /user/hadoop/datalake/schema/TopicosB_landing
+
+
+spark-submit \
+  --master yarn \
+  --deploy-mode client \
+  --conf spark.sql.warehouse.dir=/user/hadoop/warehouse \
+  --conf spark.sql.avro.compression.codec=snappy \
+  --packages org.apache.spark:spark-avro_2.12:3.5.0 \
+  /mnt/c/Users/fchav/Documents/Topicos/electriv-vehicle/datalake/procesos/poblar_capa_landing.py \
+  --env TopicosB \
+  --username hadoop \
+  --base_path /user \
+  --schema_path /user/hadoop/datalake/schema \
+  --source_db topicosb_workload
