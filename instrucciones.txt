@@ -1,0 +1,30 @@
+----------------------
+ 1. EJECUTAR SERVICIOS 
+----------------------
+start-dfs.sh
+start-yarn.sh
+hive --service metastore &
+sleep 10
+hive --service hiveserver2 &
+
+
+
+-------------------------
+ 2. CARGAR CAPA WORKLOAD 
+-------------------------
+--1. crear ruta hdfs para guardar .data
+hdfs dfs -mkdir -p /user/hadoop/dataset
+hdfs dfs -put -f /mnt/c/Users/fchav/Documents/Topicos/electriv-vehicle/datalake/data/* /user/hadoop/dataset/
+hdfs dfs -ls /user/hadoop/dataset
+
+
+spark-submit \
+  --master yarn \
+  --deploy-mode client \
+  --conf spark.sql.warehouse.dir=/user/hadoop/warehouse \
+  --conf spark.serializer=org.apache.spark.serializer.KryoSerializer \
+  poblar_capa_workload.py \
+  --env TopicosB \
+  --username hadoop \
+  --base_path /user \
+  --local_data_path /user/hadoop/dataset
