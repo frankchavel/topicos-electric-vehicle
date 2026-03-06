@@ -11,7 +11,7 @@ from pyspark.sql import SparkSession
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description='Carga capa Landing')
-    parser.add_argument('--env', default='DEV')
+    parser.add_argument('--env', default='topicosb')
     parser.add_argument('--username', default='hadoop')
     parser.add_argument('--base_path', default='/user')
     parser.add_argument(
@@ -20,7 +20,7 @@ def parse_arguments():
     )
     parser.add_argument(
         '--source_db',
-        default='dev_workload'
+        default='topicosb_workload'
     )
     return parser.parse_args()
 
@@ -64,7 +64,7 @@ def crear_tabla(spark, db_name, args):
 
     location = f"{args.base_path}/{args.username}/datalake/{args.env}_landing/electric_vehicle"
 
-    schema_url = f"hdfs://{args.schema_path}/{args.env}_landing/electric_vehicle.avsc"
+    schema_url = f"hdfs://localhost:9000{args.schema_path}/{args.env}_landing/electric_vehicle.avsc"
 
     spark.sql(f"""
         CREATE TABLE IF NOT EXISTS {db_name}.ELECTRIC_VEHICLE
@@ -128,7 +128,7 @@ def main():
             args.base_path
         )
 
-        db_workload = f"{env}_workload"
+        db_workload = args.source_db
 
         crear_tabla(spark, db_landing, args)
 

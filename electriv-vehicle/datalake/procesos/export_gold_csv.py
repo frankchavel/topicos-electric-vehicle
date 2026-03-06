@@ -7,14 +7,14 @@ spark = SparkSession.builder \
     .getOrCreate()
 
 # Base de datos y tabla de tu proyecto
-database = "dev_functional"
+database = "topicosb_functional"
 table = "vehicle_resumen_estatal"
 
 # Leer tabla Hive
 df = spark.table(f"{database}.{table}")
 
 # Ruta dentro del proyecto (como el docente)
-output_path = "file:/home/hadoop/electriv-vehicle/datalake/temp"
+output_path = "file:/home/hadoop/topicos-electric-vehicle/datalake/temp"
 
 # Guardar CSV
 df.coalesce(1) \

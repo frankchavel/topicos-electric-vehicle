@@ -9,7 +9,7 @@ spark = SparkSession.builder \
     .getOrCreate()
 
 # Ruta del CSV GOLD
-ruta_csv = "/home/hadoop/electriv-vehicle/datalake/temp/gold.csv"
+ruta_csv = "hdfs:///user/hadoop/datalake/gold.csv"
 
 # Leer CSV
 df = spark.read \
