@@ -17,7 +17,7 @@ from pyspark.sql.functions import col, count, avg
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description="Carga capa Functional")
-    parser.add_argument('--env', type=str, default='DEV')
+    parser.add_argument('--env', type=str, default='topicosb')
     parser.add_argument('--username', type=str, default='hadoop')
     parser.add_argument('--base_path', type=str, default='/user')
     parser.add_argument('--source_db', type=str, default='curated')
