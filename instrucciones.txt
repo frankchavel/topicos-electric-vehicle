@@ -119,6 +119,5 @@ spark-submit \
 --master yarn \
 --deploy-mode client \
 --packages org.mongodb.spark:mongo-spark-connector_2.12:10.3.0 \
-export_gold_to_mongodb.py
-
+electriv-vehicle/datalake/procesos/export_gold_to_mongodb.py
 

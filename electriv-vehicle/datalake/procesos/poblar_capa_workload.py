@@ -11,7 +11,7 @@ from pyspark.sql.types import *
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description="Carga Workload Electric Vehicle")
-    parser.add_argument('--env', default='DEV')
+    parser.add_argument('--env', default='topicosb')
     parser.add_argument('--username', default='hadoop')
     parser.add_argument('--base_path', default='/user')
     parser.add_argument('--local_data_path', default='/user/hadoop/dataset')
