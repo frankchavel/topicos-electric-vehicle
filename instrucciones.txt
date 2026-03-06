@@ -15,27 +15,27 @@ hive --service hiveserver2 &
 -------------------------
 --1. crear ruta hdfs para guardar .data
 hdfs dfs -mkdir -p /user/hadoop/dataset
-hdfs dfs -put -f /mnt/c/Users/fchav/Documents/Topicos/electriv-vehicle/datalake/data/* /user/hadoop/dataset/
+hdfs dfs -put -f $(pwd)/electriv-vehicle/datalake/data/* /user/hadoop/dataset/
 hdfs dfs -ls /user/hadoop/dataset
 
 
 spark-submit \
-  --master yarn \
-  --deploy-mode client \
-  --conf spark.sql.warehouse.dir=/user/hadoop/warehouse \
-  --conf spark.serializer=org.apache.spark.serializer.KryoSerializer \
-  poblar_capa_workload.py \
-  --env TopicosB \
-  --username hadoop \
-  --base_path /user \
-  --local_data_path /user/hadoop/dataset
+--master yarn \
+--deploy-mode client \
+--conf spark.sql.warehouse.dir=/user/hadoop/warehouse \
+--conf spark.serializer=org.apache.spark.serializer.KryoSerializer \
+electriv-vehicle/datalake/procesos/poblar_capa_workload.py \
+--env TopicosB \
+--username hadoop \
+--base_path /user \
+--local_data_path /user/hadoop/dataset
 
   ------------------------
  3. CARGAR CAPA LANDING 
 ------------------------
   --1. crear ruta hdfs para guardar AVSC
 hdfs dfs -mkdir -p /user/hadoop/datalake/schema/TopicosB_landing
-hdfs dfs -put -f \ /mnt/c/Users/fchav/Documents/Topicos/electriv-vehicle/datalake/schema/*.avsc \ /user/hadoop/datalake/schema/TopicosB_landing/
+hdfs dfs -put -f $(pwd)/electriv-vehicle/datalake/schema/*.avsc /user/hadoop/datalake/schema/TopicosB_landing/
 hdfs dfs -ls /user/hadoop/datalake/schema/TopicosB_landing
 
 
@@ -45,7 +45,7 @@ spark-submit \
   --conf spark.sql.warehouse.dir=/user/hadoop/warehouse \
   --conf spark.sql.avro.compression.codec=snappy \
   --packages org.apache.spark:spark-avro_2.12:3.5.0 \
-  /mnt/c/Users/fchav/Documents/Topicos/electriv-vehicle/datalake/procesos/poblar_capa_landing.py \
+  electriv-vehicle/datalake/procesos/poblar_capa_landing.py \
   --env TopicosB \
   --username hadoop \
   --base_path /user \
@@ -57,33 +57,33 @@ spark-submit \
 ------------------------
 
 spark-submit \
-  --master yarn \
-  --deploy-mode client \
-  --conf spark.sql.warehouse.dir=/user/hadoop/warehouse \
-  --conf spark.sql.parquet.compression.codec=snappy \
-  --conf spark.dynamicAllocation.enabled=true \
-  --conf spark.executor.instances=2 \
-  --conf spark.executor.memory=2g \
-  --conf spark.driver.memory=1g \
-  /mnt/c/Users/fchav/Documents/Topicos/electriv-vehicle/datalake/procesos/poblar_capa_curated.py \
-  --env TopicosB \
-  --username hadoop \
-  --base_path /user \
-  --source_db landing
+--master yarn \
+--deploy-mode client \
+--conf spark.sql.warehouse.dir=/user/hadoop/warehouse \
+--conf spark.sql.parquet.compression.codec=snappy \
+--conf spark.dynamicAllocation.enabled=true \
+--conf spark.executor.instances=2 \
+--conf spark.executor.memory=2g \
+--conf spark.driver.memory=1g \
+electriv-vehicle/datalake/procesos/poblar_capa_curated.py \
+--env TopicosB \
+--username hadoop \
+--base_path /user \
+--source_db landing
 
   ---------------------------
  5. CARGAR CAPA FUNCTIONAL
 ---------------------------
 
 spark-submit \
-  --master yarn \
-  --deploy-mode client \
-  --conf spark.sql.warehouse.dir=/user/hadoop/warehouse \
-  /mnt/c/Users/fchav/Documents/Topicos/electriv-vehicle/datalake/procesos/poblar_capa_functional.py \
-  --env DEV \
-  --username hadoop \
-  --base_path /user \
-  --source_db curated
+--master yarn \
+--deploy-mode client \
+--conf spark.sql.warehouse.dir=/user/hadoop/warehouse \
+electriv-vehicle/datalake/procesos/poblar_capa_functional.py \
+--env TopicosB \
+--username hadoop \
+--base_path /user \
+--source_db curated
   
   -------------------------
  6. EXPORTAR GOLD TO CSV
@@ -93,15 +93,24 @@ spark-submit \
 --master yarn \
 --deploy-mode client \
 --conf spark.sql.warehouse.dir=/user/hadoop/warehouse \
-/mnt/c/Users/fchav/Documents/Topicos/electriv-vehicle/datalake/procesos/export_gold_to_csv.py
+electriv-vehicle/datalake/procesos/export_gold_to_csv.py
 
 ---------------------------------------------
  7. CREAR COPIAR part*.csv RENOMBRAR GOLD.CSV
 ----------------------------------------------
 
-cp /home/hadoop/electriv-vehicle/datalake/temp/part*.csv \
-/mnt/c/Users/fchav/Documents/Topicos/electriv-vehicle/datalake/gold.csv
+spark-submit \
+--master yarn \
+--deploy-mode client \
+--conf spark.sql.warehouse.dir=/user/hadoop/warehouse \
+electriv-vehicle/datalake/procesos/export_gold_csv.py
 
+---------------------------------------------
+ 7.1. Exportar archivo part-*.csv a gold.csv
+----------------------------------------------
+
+cp /home/hadoop/topicos-electric-vehicle/datalake/temp/part-*.csv \
+/home/hadoop/topicos-electric-vehicle/datalake/gold.csv
 
 --------------------
 8. MIGRAR A MONGODB
